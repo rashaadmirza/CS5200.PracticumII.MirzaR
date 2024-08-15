@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<txns>
+  <txn txnID="1001" repID="203">
+    <customer>Enim PC</customer>
+    <country>USA</country>
+    <sale>
+      <date>9/13/2023</date>
+      <product>Presterone</product>
+      <unitcost currency="USD">1.09</unitcost>
+      <qty>1300</qty>
+    </sale>
+  </txn>
+  <txn txnID="1002" repID="887">
+    <customer>Eu Dolor Companie</customer>
+    <country>Ecuador</country>
+    <sale>
+      <date>5/3/2023</date>
+      <product>Colophrazen</product>
+      <unitcost currency="USD">1.23</unitcost>
+      <qty>1600</qty>
+    </sale>
+  </txn>
+  <txn txnID="1003" repID="887">
+    <customer>Luctus Aliquet Plc</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>8/10/2022</date>
+      <product>Xinoprozen</product>
+      <unitcost currency="USD">2.82</unitcost>
+      <qty>800</qty>
+    </sale>
+  </txn>
+  <txn txnID="1004" repID="887">
+    <customer>Nisl Quisque</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>6/13/2022</date>
+      <product>Xinoprozen</product>
+      <unitcost currency="USD">2.82</unitcost>
+      <qty>800</qty>
+    </sale>
+  </txn>
+  <txn txnID="1005" repID="332">
+    <customer>Pain Management Center</customer>
+    <country>USA</country>
+    <sale>
+      <date>8/9/2022</date>
+      <product>Proxinostat</product>
+      <unitcost currency="USD">2.23</unitcost>
+      <qty>1300</qty>
+    </sale>
+  </txn>
+  <txn txnID="1006" repID="221">
+    <customer>Proin Dolor Institut</customer>
+    <country>Germany</country>
+    <sale>
+      <date>1/7/2021</date>
+      <product>Xinoprozen</product>
+      <unitcost currency="USD">2.82</unitcost>
+      <qty>400</qty>
+    </sale>
+  </txn>
+  <txn txnID="1007" repID="887">
+    <customer>Saude Universal</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>6/18/2021</date>
+      <product>Gerantrazeophem</product>
+      <unitcost currency="USD">1.87</unitcost>
+      <qty>800</qty>
+    </sale>
+  </txn>
+  <txn txnID="1008" repID="203">
+    <customer>Adipiscing Mauris Inc.</customer>
+    <country>USA</country>
+    <sale>
+      <date>7/21/2022</date>
+      <product>Xinoprozen</product>
+      <unitcost currency="USD">2.82</unitcost>
+      <qty>1800</qty>
+    </sale>
+  </txn>
+  <txn txnID="1009" repID="203">
+    <customer>Vitae Risus Incorporated</customer>
+    <country>USA</country>
+    <sale>
+      <date>2/2/2022</date>
+      <product>Proxinostat</product>
+      <unitcost currency="USD">2.23</unitcost>
+      <qty>1000</qty>
+    </sale>
+  </txn>
+  <txn txnID="1010" repID="332">
+    <customer>Pain Management Center</customer>
+    <country>USA</country>
+    <sale>
+      <date>4/10/2021</date>
+      <product>Xinoprozen</product>
+      <unitcost currency="USD">2.82</unitcost>
+      <qty>400</qty>
+    </sale>
+  </txn>
+  <txn txnID="1011" repID="203">
+    <customer>Adipiscing Mauris Inc.</customer>
+    <country>USA</country>
+    <sale>
+      <date>6/12/2021</date>
+      <product>Colophrazen</product>
+      <unitcost currency="USD">1.23</unitcost>
+      <qty>1900</qty>
+    </sale>
+  </txn>
+  <txn txnID="1012" repID="887">
+    <customer>Saude Universal</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>6/12/2021</date>
+      <product>Bhiktarvizem</product>
+      <unitcost currency="USD">3.87</unitcost>
+      <qty>200</qty>
+    </sale>
+  </txn>
+  <txn txnID="1013" repID="332">
+    <customer>Pain Management Center</customer>
+    <country>USA</country>
+    <sale>
+      <date>11/7/2023</date>
+      <product>Proxinostat</product>
+      <unitcost currency="USD">2.23</unitcost>
+      <qty>600</qty>
+    </sale>
+  </txn>
+  <txn txnID="1014" repID="887">
+    <customer>Eu Dolor Companie</customer>
+    <country>Ecuador</country>
+    <sale>
+      <date>1/10/2021</date>
+      <product>Proxinostat</product>
+      <unitcost currency="USD">2.23</unitcost>
+      <qty>900</qty>
+    </sale>
+  </txn>
+  <txn txnID="1015" repID="203">
+    <customer>Vitae Risus Incorporated</customer>
+    <country>USA</country>
+    <sale>
+      <date>2/24/2020</date>
+      <product>Alaraphosol</product>
+      <unitcost currency="USD">0.92</unitcost>
+      <qty>1300</qty>
+    </sale>
+  </txn>
+  <txn txnID="1016" repID="887">
+    <customer>Varius Plc</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>6/10/2020</date>
+      <product>Gerantrazeophem</product>
+      <unitcost currency="USD">1.87</unitcost>
+      <qty>1100</qty>
+    </sale>
+  </txn>
+  <txn txnID="1017" repID="887">
+    <customer>Nisl Quisque</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>12/8/2021</date>
+      <product>Diaprogenix</product>
+      <unitcost currency="USD">0.04</unitcost>
+      <qty>400</qty>
+    </sale>
+  </txn>
+  <txn txnID="1018" repID="887">
+    <customer>Eu Dolor Companie</customer>
+    <country>Ecuador</country>
+    <sale>
+      <date>6/11/2022</date>
+      <product>Zalofen</product>
+      <unitcost currency="USD">39</unitcost>
+      <qty>1600</qty>
+    </sale>
+  </txn>
+  <txn txnID="1019" repID="332">
+    <customer>At Pretium LLC</customer>
+    <country>USA</country>
+    <sale>
+      <date>6/14/2021</date>
+      <product>Colophrazen</product>
+      <unitcost currency="USD">1.23</unitcost>
+      <qty>400</qty>
+    </sale>
+  </txn>
+  <txn txnID="1020" repID="332">
+    <customer>Lorem Luctus</customer>
+    <country>USA</country>
+    <sale>
+      <date>6/18/2022</date>
+      <product>Xinoprozen</product>
+      <unitcost currency="USD">2.82</unitcost>
+      <qty>500</qty>
+    </sale>
+  </txn>
+  <txn txnID="1021" repID="221">
+    <customer>Proin Dolor Institut</customer>
+    <country>Germany</country>
+    <sale>
+      <date>3/10/2020</date>
+      <product>Alaraphosol</product>
+      <unitcost currency="USD">0.92</unitcost>
+      <qty>1700</qty>
+    </sale>
+  </txn>
+  <txn txnID="1022" repID="655">
+    <customer>Barma Krankenhausgesellschaft</customer>
+    <country>Austria</country>
+    <sale>
+      <date>11/18/2020</date>
+      <product>Alaraphosol</product>
+      <unitcost currency="USD">0.92</unitcost>
+      <qty>1800</qty>
+    </sale>
+  </txn>
+  <txn txnID="1023" repID="655">
+    <customer>Barma Krankenhausgesellschaft</customer>
+    <country>Austria</country>
+    <sale>
+      <date>4/8/2022</date>
+      <product>Diaprogenix</product>
+      <unitcost currency="USD">0.04</unitcost>
+      <qty>1000</qty>
+    </sale>
+  </txn>
+  <txn txnID="1024" repID="100">
+    <customer>Eleifend GMBH</customer>
+    <country>Germany</country>
+    <sale>
+      <date>1/10/2022</date>
+      <product>Clobromizen</product>
+      <unitcost currency="USD">1.44</unitcost>
+      <qty>300</qty>
+    </sale>
+  </txn>
+  <txn txnID="1025" repID="887">
+    <customer>Varius Plc</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>7/20/2021</date>
+      <product>Alaraphosol</product>
+      <unitcost currency="USD">0.92</unitcost>
+      <qty>1600</qty>
+    </sale>
+  </txn>
+  <txn txnID="1026" repID="887">
+    <customer>Saude Universal</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>4/24/2021</date>
+      <product>Diaprogenix</product>
+      <unitcost currency="USD">0.04</unitcost>
+      <qty>900</qty>
+    </sale>
+  </txn>
+  <txn txnID="1027" repID="203">
+    <customer>Enim PC</customer>
+    <country>USA</country>
+    <sale>
+      <date>11/5/2020</date>
+      <product>Colophrazen</product>
+      <unitcost currency="USD">1.23</unitcost>
+      <qty>1900</qty>
+    </sale>
+  </txn>
+  <txn txnID="1028" repID="887">
+    <customer>Eu Dolor Companie</customer>
+    <country>Ecuador</country>
+    <sale>
+      <date>5/14/2022</date>
+      <product>Gerantrazeophem</product>
+      <unitcost currency="USD">1.87</unitcost>
+      <qty>1900</qty>
+    </sale>
+  </txn>
+  <txn txnID="1029" repID="119">
+    <customer>Eastern Hospital Group</customer>
+    <country>USA</country>
+    <sale>
+      <date>8/17/2020</date>
+      <product>Colophrazen</product>
+      <unitcost currency="USD">1.23</unitcost>
+      <qty>1400</qty>
+    </sale>
+  </txn>
+  <txn txnID="1030" repID="203">
+    <customer>Adipiscing Mauris Inc.</customer>
+    <country>USA</country>
+    <sale>
+      <date>11/10/2023</date>
+      <product>Gerantrazeophem</product>
+      <unitcost currency="USD">1.87</unitcost>
+      <qty>900</qty>
+    </sale>
+  </txn>
+  <txn txnID="1031" repID="332">
+    <customer>At Pretium LLC</customer>
+    <country>USA</country>
+    <sale>
+      <date>3/16/2021</date>
+      <product>Xipramin</product>
+      <unitcost currency="USD">0.72</unitcost>
+      <qty>2000</qty>
+    </sale>
+  </txn>
+  <txn txnID="1032" repID="887">
+    <customer>Eu Dolor Companie</customer>
+    <country>Ecuador</country>
+    <sale>
+      <date>3/9/2021</date>
+      <product>Xinoprozen</product>
+      <unitcost currency="USD">2.82</unitcost>
+      <qty>1200</qty>
+    </sale>
+  </txn>
+  <txn txnID="1033" repID="887">
+    <customer>Saude Universal</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>1/12/2021</date>
+      <product>Bhiktarvizem</product>
+      <unitcost currency="USD">3.87</unitcost>
+      <qty>1900</qty>
+    </sale>
+  </txn>
+  <txn txnID="1034" repID="221">
+    <customer>Proin Dolor Institut</customer>
+    <country>Germany</country>
+    <sale>
+      <date>12/16/2023</date>
+      <product>Proxinostat</product>
+      <unitcost currency="USD">2.23</unitcost>
+      <qty>1800</qty>
+    </sale>
+  </txn>
+  <txn txnID="1035" repID="119">
+    <customer>Eastern Hospital Group</customer>
+    <country>USA</country>
+    <sale>
+      <date>2/21/2022</date>
+      <product>Colophrazen</product>
+      <unitcost currency="USD">1.23</unitcost>
+      <qty>200</qty>
+    </sale>
+  </txn>
+  <txn txnID="1036" repID="332">
+    <customer>At Pretium LLC</customer>
+    <country>USA</country>
+    <sale>
+      <date>11/5/2020</date>
+      <product>Alaraphosol</product>
+      <unitcost currency="USD">0.92</unitcost>
+      <qty>1300</qty>
+    </sale>
+  </txn>
+  <txn txnID="1037" repID="332">
+    <customer>Pain Management Center</customer>
+    <country>USA</country>
+    <sale>
+      <date>9/9/2020</date>
+      <product>Bhiktarvizem</product>
+      <unitcost currency="USD">3.87</unitcost>
+      <qty>900</qty>
+    </sale>
+  </txn>
+  <txn txnID="1038" repID="100">
+    <customer>Eleifend GMBH</customer>
+    <country>Germany</country>
+    <sale>
+      <date>10/6/2023</date>
+      <product>Xipramin</product>
+      <unitcost currency="USD">0.72</unitcost>
+      <qty>1400</qty>
+    </sale>
+  </txn>
+  <txn txnID="1039" repID="332">
+    <customer>Pain Management Center</customer>
+    <country>USA</country>
+    <sale>
+      <date>1/15/2021</date>
+      <product>Clobromizen</product>
+      <unitcost currency="USD">1.44</unitcost>
+      <qty>800</qty>
+    </sale>
+  </txn>
+  <txn txnID="1040" repID="887">
+    <customer>Luctus Aliquet Plc</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>5/25/2022</date>
+      <product>Diaprogenix</product>
+      <unitcost currency="USD">0.04</unitcost>
+      <qty>500</qty>
+    </sale>
+  </txn>
+  <txn txnID="1041" repID="887">
+    <customer>Varius Plc</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>11/8/2021</date>
+      <product>Zalofen</product>
+      <unitcost currency="USD">39</unitcost>
+      <qty>2000</qty>
+    </sale>
+  </txn>
+  <txn txnID="1042" repID="655">
+    <customer>Barma Krankenhausgesellschaft</customer>
+    <country>Austria</country>
+    <sale>
+      <date>4/1/2022</date>
+      <product>Xipramin</product>
+      <unitcost currency="USD">0.72</unitcost>
+      <qty>1800</qty>
+    </sale>
+  </txn>
+  <txn txnID="1043" repID="119">
+    <customer>Eastern Hospital Group</customer>
+    <country>USA</country>
+    <sale>
+      <date>4/12/2021</date>
+      <product>Xipralofen</product>
+      <unitcost currency="USD">4.76</unitcost>
+      <qty>1900</qty>
+    </sale>
+  </txn>
+  <txn txnID="1044" repID="887">
+    <customer>Luctus Aliquet Plc</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>7/4/2023</date>
+      <product>Xinoprozen</product>
+      <unitcost currency="USD">2.82</unitcost>
+      <qty>300</qty>
+    </sale>
+  </txn>
+  <txn txnID="1045" repID="887">
+    <customer>Varius Plc</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>8/24/2022</date>
+      <product>Clobromizen</product>
+      <unitcost currency="USD">1.44</unitcost>
+      <qty>900</qty>
+    </sale>
+  </txn>
+  <txn txnID="1046" repID="203">
+    <customer>Vitae Risus Incorporated</customer>
+    <country>USA</country>
+    <sale>
+      <date>1/2/2021</date>
+      <product>Xinoprozen</product>
+      <unitcost currency="USD">2.82</unitcost>
+      <qty>1900</qty>
+    </sale>
+  </txn>
+  <txn txnID="1047" repID="119">
+    <customer>Eastern Hospital Group</customer>
+    <country>USA</country>
+    <sale>
+      <date>3/3/2022</date>
+      <product>Clobromizen</product>
+      <unitcost currency="USD">1.44</unitcost>
+      <qty>1100</qty>
+    </sale>
+  </txn>
+  <txn txnID="1048" repID="119">
+    <customer>Plaxus Medical</customer>
+    <country>Canada</country>
+    <sale>
+      <date>1/18/2020</date>
+      <product>Presterone</product>
+      <unitcost currency="USD">1.09</unitcost>
+      <qty>1600</qty>
+    </sale>
+  </txn>
+  <txn txnID="1049" repID="887">
+    <customer>Saude Universal</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>2/5/2023</date>
+      <product>Diaprogenix</product>
+      <unitcost currency="USD">0.04</unitcost>
+      <qty>200</qty>
+    </sale>
+  </txn>
+  <txn txnID="1050" repID="332">
+    <customer>At Pretium LLC</customer>
+    <country>USA</country>
+    <sale>
+      <date>9/7/2022</date>
+      <product>Zalofen</product>
+      <unitcost currency="USD">39</unitcost>
+      <qty>1200</qty>
+    </sale>
+  </txn>
+  <txn txnID="1051" repID="119">
+    <customer>Plaxus Medical</customer>
+    <country>Canada</country>
+    <sale>
+      <date>5/24/2021</date>
+      <product>Gerantrazeophem</product>
+      <unitcost currency="USD">1.87</unitcost>
+      <qty>1100</qty>
+    </sale>
+  </txn>
+  <txn txnID="1052" repID="887">
+    <customer>Saude Universal</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>12/3/2021</date>
+      <product>Clobromizen</product>
+      <unitcost currency="USD">1.44</unitcost>
+      <qty>1000</qty>
+    </sale>
+  </txn>
+  <txn txnID="1053" repID="887">
+    <customer>Nisl Quisque</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>12/8/2020</date>
+      <product>Gerantrazeophem</product>
+      <unitcost currency="USD">1.87</unitcost>
+      <qty>1400</qty>
+    </sale>
+  </txn>
+  <txn txnID="1054" repID="119">
+    <customer>Eastern Hospital Group</customer>
+    <country>USA</country>
+    <sale>
+      <date>3/20/2020</date>
+      <product>Alaraphosol</product>
+      <unitcost currency="USD">0.92</unitcost>
+      <qty>600</qty>
+    </sale>
+  </txn>
+  <txn txnID="1055" repID="119">
+    <customer>Plaxus Medical</customer>
+    <country>Canada</country>
+    <sale>
+      <date>7/9/2022</date>
+      <product>Xipramin</product>
+      <unitcost currency="USD">0.72</unitcost>
+      <qty>300</qty>
+    </sale>
+  </txn>
+  <txn txnID="1056" repID="655">
+    <customer>Barma Krankenhausgesellschaft</customer>
+    <country>Austria</country>
+    <sale>
+      <date>6/16/2021</date>
+      <product>Clobromizen</product>
+      <unitcost currency="USD">1.44</unitcost>
+      <qty>300</qty>
+    </sale>
+  </txn>
+  <txn txnID="1057" repID="221">
+    <customer>Proin Dolor Institut</customer>
+    <country>Germany</country>
+    <sale>
+      <date>2/22/2022</date>
+      <product>Clobromizen</product>
+      <unitcost currency="USD">1.44</unitcost>
+      <qty>200</qty>
+    </sale>
+  </txn>
+  <txn txnID="1058" repID="332">
+    <customer>Pain Management Center</customer>
+    <country>USA</country>
+    <sale>
+      <date>3/21/2023</date>
+      <product>Colophrazen</product>
+      <unitcost currency="USD">1.23</unitcost>
+      <qty>1900</qty>
+    </sale>
+  </txn>
+  <txn txnID="1059" repID="119">
+    <customer>Eastern Hospital Group</customer>
+    <country>USA</country>
+    <sale>
+      <date>2/11/2022</date>
+      <product>Proxinostat</product>
+      <unitcost currency="USD">2.23</unitcost>
+      <qty>1100</qty>
+    </sale>
+  </txn>
+  <txn txnID="1060" repID="887">
+    <customer>Varius Plc</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>9/14/2022</date>
+      <product>Presterone</product>
+      <unitcost currency="USD">1.09</unitcost>
+      <qty>1300</qty>
+    </sale>
+  </txn>
+  <txn txnID="1061" repID="203">
+    <customer>Adipiscing Mauris Inc.</customer>
+    <country>USA</country>
+    <sale>
+      <date>11/9/2021</date>
+      <product>Diaprogenix</product>
+      <unitcost currency="USD">0.04</unitcost>
+      <qty>1000</qty>
+    </sale>
+  </txn>
+  <txn txnID="1062" repID="887">
+    <customer>Nisl Quisque</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>7/3/2022</date>
+      <product>Gerantrazeophem</product>
+      <unitcost currency="USD">1.87</unitcost>
+      <qty>600</qty>
+    </sale>
+  </txn>
+  <txn txnID="1063" repID="332">
+    <customer>Lorem Luctus</customer>
+    <country>USA</country>
+    <sale>
+      <date>1/25/2021</date>
+      <product>Diaprogenix</product>
+      <unitcost currency="USD">0.04</unitcost>
+      <qty>1100</qty>
+    </sale>
+  </txn>
+  <txn txnID="1064" repID="332">
+    <customer>Lorem Luctus</customer>
+    <country>USA</country>
+    <sale>
+      <date>4/22/2020</date>
+      <product>Alaraphosol</product>
+      <unitcost currency="USD">0.92</unitcost>
+      <qty>1300</qty>
+    </sale>
+  </txn>
+  <txn txnID="1065" repID="332">
+    <customer>Pain Management Center</customer>
+    <country>USA</country>
+    <sale>
+      <date>3/6/2022</date>
+      <product>Gerantrazeophem</product>
+      <unitcost currency="USD">1.87</unitcost>
+      <qty>900</qty>
+    </sale>
+  </txn>
+  <txn txnID="1066" repID="119">
+    <customer>Plaxus Medical</customer>
+    <country>Canada</country>
+    <sale>
+      <date>5/4/2023</date>
+      <product>Colophrazen</product>
+      <unitcost currency="USD">1.23</unitcost>
+      <qty>1600</qty>
+    </sale>
+  </txn>
+  <txn txnID="1067" repID="203">
+    <customer>Vitae Risus Incorporated</customer>
+    <country>USA</country>
+    <sale>
+      <date>5/18/2021</date>
+      <product>Gerantrazeophem</product>
+      <unitcost currency="USD">1.87</unitcost>
+      <qty>200</qty>
+    </sale>
+  </txn>
+  <txn txnID="1068" repID="203">
+    <customer>Adipiscing Mauris Inc.</customer>
+    <country>USA</country>
+    <sale>
+      <date>2/11/2022</date>
+      <product>Presterone</product>
+      <unitcost currency="USD">1.09</unitcost>
+      <qty>1400</qty>
+    </sale>
+  </txn>
+  <txn txnID="1069" repID="203">
+    <customer>Vitae Risus Incorporated</customer>
+    <country>USA</country>
+    <sale>
+      <date>2/26/2021</date>
+      <product>Diaprogenix</product>
+      <unitcost currency="USD">0.04</unitcost>
+      <qty>1500</qty>
+    </sale>
+  </txn>
+  <txn txnID="1070" repID="119">
+    <customer>Eastern Hospital Group</customer>
+    <country>USA</country>
+    <sale>
+      <date>3/9/2021</date>
+      <product>Presterone</product>
+      <unitcost currency="USD">1.09</unitcost>
+      <qty>600</qty>
+    </sale>
+  </txn>
+  <txn txnID="1071" repID="655">
+    <customer>Barma Krankenhausgesellschaft</customer>
+    <country>Austria</country>
+    <sale>
+      <date>7/4/2023</date>
+      <product>Xinoprozen</product>
+      <unitcost currency="USD">2.82</unitcost>
+      <qty>1800</qty>
+    </sale>
+  </txn>
+  <txn txnID="1072" repID="655">
+    <customer>Barma Krankenhausgesellschaft</customer>
+    <country>Austria</country>
+    <sale>
+      <date>3/23/2022</date>
+      <product>Zalofen</product>
+      <unitcost currency="USD">39</unitcost>
+      <qty>1100</qty>
+    </sale>
+  </txn>
+  <txn txnID="1073" repID="221">
+    <customer>Proin Dolor Institut</customer>
+    <country>Germany</country>
+    <sale>
+      <date>6/9/2021</date>
+      <product>Xipramin</product>
+      <unitcost currency="USD">0.72</unitcost>
+      <qty>200</qty>
+    </sale>
+  </txn>
+  <txn txnID="1074" repID="119">
+    <customer>Eastern Hospital Group</customer>
+    <country>USA</country>
+    <sale>
+      <date>10/14/2022</date>
+      <product>Colophrazen</product>
+      <unitcost currency="USD">1.23</unitcost>
+      <qty>300</qty>
+    </sale>
+  </txn>
+  <txn txnID="1075" repID="887">
+    <customer>Luctus Aliquet Plc</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>4/25/2021</date>
+      <product>Diaprogenix</product>
+      <unitcost currency="USD">0.04</unitcost>
+      <qty>2000</qty>
+    </sale>
+  </txn>
+  <txn txnID="1076" repID="655">
+    <customer>Barma Krankenhausgesellschaft</customer>
+    <country>Austria</country>
+    <sale>
+      <date>10/22/2022</date>
+      <product>Clobromizen</product>
+      <unitcost currency="USD">1.44</unitcost>
+      <qty>100</qty>
+    </sale>
+  </txn>
+  <txn txnID="1077" repID="203">
+    <customer>Enim PC</customer>
+    <country>USA</country>
+    <sale>
+      <date>11/12/2022</date>
+      <product>Presterone</product>
+      <unitcost currency="USD">1.09</unitcost>
+      <qty>1000</qty>
+    </sale>
+  </txn>
+  <txn txnID="1078" repID="203">
+    <customer>Enim PC</customer>
+    <country>USA</country>
+    <sale>
+      <date>8/18/2023</date>
+      <product>Gerantrazeophem</product>
+      <unitcost currency="USD">1.87</unitcost>
+      <qty>200</qty>
+    </sale>
+  </txn>
+  <txn txnID="1079" repID="119">
+    <customer>Eastern Hospital Group</customer>
+    <country>USA</country>
+    <sale>
+      <date>2/21/2022</date>
+      <product>Diaprogenix</product>
+      <unitcost currency="USD">0.04</unitcost>
+      <qty>900</qty>
+    </sale>
+  </txn>
+  <txn txnID="1080" repID="203">
+    <customer>Vitae Risus Incorporated</customer>
+    <country>USA</country>
+    <sale>
+      <date>3/8/2020</date>
+      <product>Alaraphosol</product>
+      <unitcost currency="USD">0.92</unitcost>
+      <qty>1100</qty>
+    </sale>
+  </txn>
+  <txn txnID="1081" repID="887">
+    <customer>Varius Plc</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>11/8/2022</date>
+      <product>Xipramin</product>
+      <unitcost currency="USD">0.72</unitcost>
+      <qty>1200</qty>
+    </sale>
+  </txn>
+  <txn txnID="1082" repID="100">
+    <customer>Eleifend GMBH</customer>
+    <country>Germany</country>
+    <sale>
+      <date>8/6/2021</date>
+      <product>Alaraphosol</product>
+      <unitcost currency="USD">0.92</unitcost>
+      <qty>1000</qty>
+    </sale>
+  </txn>
+  <txn txnID="1083" repID="332">
+    <customer>At Pretium LLC</customer>
+    <country>USA</country>
+    <sale>
+      <date>7/25/2021</date>
+      <product>Bhiktarvizem</product>
+      <unitcost currency="USD">3.87</unitcost>
+      <qty>600</qty>
+    </sale>
+  </txn>
+  <txn txnID="1084" repID="887">
+    <customer>Luctus Aliquet Plc</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>3/23/2020</date>
+      <product>Xipramin</product>
+      <unitcost currency="USD">0.72</unitcost>
+      <qty>1200</qty>
+    </sale>
+  </txn>
+  <txn txnID="1085" repID="655">
+    <customer>Barma Krankenhausgesellschaft</customer>
+    <country>Austria</country>
+    <sale>
+      <date>1/17/2020</date>
+      <product>Proxinostat</product>
+      <unitcost currency="USD">2.23</unitcost>
+      <qty>300</qty>
+    </sale>
+  </txn>
+  <txn txnID="1086" repID="887">
+    <customer>Luctus Aliquet Plc</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>5/8/2022</date>
+      <product>Colophrazen</product>
+      <unitcost currency="USD">1.23</unitcost>
+      <qty>1000</qty>
+    </sale>
+  </txn>
+  <txn txnID="1087" repID="119">
+    <customer>Plaxus Medical</customer>
+    <country>Canada</country>
+    <sale>
+      <date>1/6/2021</date>
+      <product>Gerantrazeophem</product>
+      <unitcost currency="USD">1.87</unitcost>
+      <qty>1800</qty>
+    </sale>
+  </txn>
+  <txn txnID="1088" repID="332">
+    <customer>Pain Management Center</customer>
+    <country>USA</country>
+    <sale>
+      <date>9/6/2021</date>
+      <product>Alaraphosol</product>
+      <unitcost currency="USD">0.92</unitcost>
+      <qty>500</qty>
+    </sale>
+  </txn>
+  <txn txnID="1089" repID="203">
+    <customer>Adipiscing Mauris Inc.</customer>
+    <country>USA</country>
+    <sale>
+      <date>9/12/2022</date>
+      <product>Zalofen</product>
+      <unitcost currency="USD">39</unitcost>
+      <qty>800</qty>
+    </sale>
+  </txn>
+  <txn txnID="1090" repID="887">
+    <customer>Luctus Aliquet Plc</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>12/24/2023</date>
+      <product>Colophrazen</product>
+      <unitcost currency="USD">1.23</unitcost>
+      <qty>1500</qty>
+    </sale>
+  </txn>
+  <txn txnID="1091" repID="332">
+    <customer>Pain Management Center</customer>
+    <country>USA</country>
+    <sale>
+      <date>5/4/2023</date>
+      <product>Proxinostat</product>
+      <unitcost currency="USD">2.23</unitcost>
+      <qty>500</qty>
+    </sale>
+  </txn>
+  <txn txnID="1092" repID="332">
+    <customer>Pain Management Center</customer>
+    <country>USA</country>
+    <sale>
+      <date>12/8/2021</date>
+      <product>Xinoprozen</product>
+      <unitcost currency="USD">2.82</unitcost>
+      <qty>700</qty>
+    </sale>
+  </txn>
+  <txn txnID="1093" repID="655">
+    <customer>Barma Krankenhausgesellschaft</customer>
+    <country>Austria</country>
+    <sale>
+      <date>4/8/2022</date>
+      <product>Zalofen</product>
+      <unitcost currency="USD">39</unitcost>
+      <qty>1100</qty>
+    </sale>
+  </txn>
+  <txn txnID="1094" repID="100">
+    <customer>Eleifend GMBH</customer>
+    <country>Germany</country>
+    <sale>
+      <date>8/16/2021</date>
+      <product>Presterone</product>
+      <unitcost currency="USD">1.09</unitcost>
+      <qty>100</qty>
+    </sale>
+  </txn>
+  <txn txnID="1095" repID="203">
+    <customer>Adipiscing Mauris Inc.</customer>
+    <country>USA</country>
+    <sale>
+      <date>9/27/2023</date>
+      <product>Xinoprozen</product>
+      <unitcost currency="USD">2.82</unitcost>
+      <qty>700</qty>
+    </sale>
+  </txn>
+  <txn txnID="1096" repID="221">
+    <customer>Proin Dolor Institut</customer>
+    <country>Germany</country>
+    <sale>
+      <date>9/21/2021</date>
+      <product>Bhiktarvizem</product>
+      <unitcost currency="USD">3.87</unitcost>
+      <qty>400</qty>
+    </sale>
+  </txn>
+  <txn txnID="1097" repID="887">
+    <customer>Varius Plc</customer>
+    <country>Brazil</country>
+    <sale>
+      <date>4/1/2021</date>
+      <product>Alaraphosol</product>
+      <unitcost currency="USD">0.92</unitcost>
+      <qty>1100</qty>
+    </sale>
+  </txn>
+  <txn txnID="1098" repID="221">
+    <customer>Proin Dolor Institut</customer>
+    <country>Germany</country>
+    <sale>
+      <date>10/19/2020</date>
+      <product>Clobromizen</product>
+      <unitcost currency="USD">1.44</unitcost>
+      <qty>200</qty>
+    </sale>
+  </txn>
+  <txn txnID="1099" repID="332">
+    <customer>Pain Management Center</customer>
+    <country>USA</country>
+    <sale>
+      <date>5/20/2022</date>
+      <product>Zalofen</product>
+      <unitcost currency="USD">39</unitcost>
+      <qty>1700</qty>
+    </sale>
+  </txn>
+  <txn txnID="1100" repID="332">
+    <customer>At Pretium LLC</customer>
+    <country>USA</country>
+    <sale>
+      <date>11/24/2023</date>
+      <product>Clobromizen</product>
+      <unitcost currency="USD">1.44</unitcost>
+      <qty>300</qty>
+    </sale>
+  </txn>
+</txns>

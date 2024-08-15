@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<salesreps>
+  <rep rID="r100">
+    <demo>
+      <sur>Schwab</sur>
+      <first>Helmut</first>
+      <phone>+49 7765 33764</phone>
+      <hiredate>Jan 01 2018</hiredate>
+    </demo>
+    <commission>10%</commission>
+    <territory>EMEA</territory>
+    <certified />  </rep>
+  <rep rID="r887">
+    <demo>
+      <sur>da Silva</sur>
+      <first>Walison</first>
+      <phone>+55 31 5543-66532</phone>
+      <hiredate>May 15 2014</hiredate>
+    </demo>
+    <commission>8%</commission>
+    <territory>South America</territory>
+    <certified />  </rep>
+  <rep rID="r332">
+    <demo>
+      <sur>McRowe</sur>
+      <first>Lynette</first>
+      <phone>+1 617 555-7732</phone>
+      <hiredate>Sep 01 2021</hiredate>
+    </demo>
+    <commission>110%</commission>
+    <territory>East</territory>
+    <certified />  </rep>
+  <rep rID="r203">
+    <demo>
+      <sur>Kappoorthy</sur>
+      <first>Aneeta</first>
+      <phone>+1 414 555-1192</phone>
+      <hiredate>Mar 11 2020</hiredate>
+    </demo>
+    <commission>110%</commission>
+    <territory>West</territory>
+    <certified />  </rep>
+  <rep rID="r221">
+    <demo>
+      <sur>Sixt</sur>
+      <first>Veronika</first>
+      <phone>+33 665 3347 211</phone>
+      <hiredate>Sep 01 1997</hiredate>
+    </demo>
+    <commission>90%</commission>
+    <territory>EMEA</territory>
+    <certified />  </rep>
+  <rep rID="r655">
+    <demo>
+      <sur>Klinger</sur>
+      <first>Ralph</first>
+      <phone>+1 317 665-0001</phone>
+      <hiredate>Jun 01 2019</hiredate>
+    </demo>
+    <commission>112%</commission>
+    <territory>West</territory>
+    <certified />  </rep>
+  <rep rID="r119">
+    <demo>
+      <sur>Patel</sur>
+      <first>Prasad</first>
+      <phone>+43 66437 3329</phone>
+      <hiredate>Jun 01 2019</hiredate>
+    </demo>
+    <commission>95%</commission>
+    <territory>EMEA</territory>
+    <certified />  </rep>
+  <rep rID="r988">
+    <demo>
+      <sur>Zheng</sur>
+      <first>Xi</first>
+      <phone>+212 884 99874</phone>
+      <hiredate>Oct 15 2021</hiredate>
+    </demo>
+    <commission>125%</commission>
+    <territory>EMEA</territory>
+    <certified />  </rep>
+</salesreps>
