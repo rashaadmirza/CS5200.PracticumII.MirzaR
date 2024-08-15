@@ -1,0 +1,244 @@
+---
+title: "Sales Analysis"
+author: "Rashaad Mohammed Mirza"
+date: "Summer 2024"
+output:
+  html_document:
+    df_print: paged
+  html_notebook: default
+  pdf_document: default
+subtitle: "2020-2023"
+---
+
+# Report
+
+```{r libraries, eval = T, warning = F, include = F}
+# Import necessary libraries
+library(DBI)
+library(RSQLite)
+library(RMySQL)
+library(dplyr)
+library(kableExtra)
+library(ggplot2)
+
+```
+
+```{r connection, eval = T, warning = F, include = F}
+# Connect to freemysqlhosting.net MySQL database from R
+db_host <- "sql5.freemysqlhosting.net"
+db_name <- "sql5724225"
+db_user <- "sql5724225"
+db_pwd <- "5YeYbiBfvH"
+db_port <- 3306
+
+# Connect to remote server database
+mysql_conn <-  dbConnect(RMySQL::MySQL(),
+                      host = db_host,
+                      dbname = db_name,
+                      user = db_user,
+                      password = db_pwd,
+                      port = db_port)
+
+```
+
+## AQI: Top 5 Products by Total Revenue (2020-2023)
+
+```{r q1, warning = F, echo = F}
+top_products <- "
+SELECT product, SUM(total_amount) AS total_revenue
+FROM sales_facts
+GROUP BY product
+ORDER BY total_revenue DESC
+LIMIT 5
+"
+
+top_products_data <- dbGetQuery(mysql_conn, top_products)
+
+```
+
+The table and chart below show the top five products that generated the most revenue over the period from 2020 to 2023. This analysis helps in identifying the best-performing products and can guide strategic decisions such as inventory management, marketing focus, and sales strategies.
+
+```{r r1, warning = F, echo = F}
+# Table
+knitr::kable(top_products_data, caption = "Top 5 Products by Total Revenue (2020-2023)")
+
+# Bar Chart for Top Five Products with the Most Sales
+ggplot(top_products_data, aes(x = reorder(product, -total_revenue), y = total_revenue)) +
+  geom_bar(stat = "identity", fill = "skyblue") +
+  theme_minimal() +
+  labs(title = "Top 5 Products by Total Revenue",
+       subtitle = "2020-2023",
+       x = "Product",
+       y = "Total Revenue") +
+  coord_flip()
+
+```
+
+## AQII: Total Revenue and Units Sold per Product per Quarter (2020-2023)
+
+```{r q2, warning = F, echo = F}
+revenue_units <- "
+SELECT 
+    product, 
+    year, 
+    quarter, 
+    SUM(total_amount) AS total_revenue, 
+    SUM(total_units) AS total_units_sold
+FROM 
+    sales_facts
+GROUP BY 
+    product, 
+    year, 
+    quarter
+ORDER BY 
+    product, 
+    year, 
+    quarter
+"
+
+revenue_units_data <- dbGetQuery(mysql_conn, revenue_units)
+
+```
+
+The following analysis provides a breakdown of total revenue and units sold for each product on a quarterly basis. This information is useful for understanding seasonal trends, identifying products with consistent performance, and recognizing quarters with exceptional sales performance.
+
+### Total Revenue and Units Sold per Product per Quarter
+
+The table below shows the total revenue and units sold per product for each quarter from 2020 to 2023.
+
+```{r r2t, warning = F, echo = F}
+knitr::kable(revenue_units_data, caption = "Total Revenue and Units Sold per Product per Quarter")
+```
+
+### Total Revenue per Product per Quarter
+
+The bar chart below visualizes the total revenue for each product, broken down by quarter. This helps in identifying which products performed best in specific quarters.
+
+```{r r2b, warning = F, echo = F}
+# Bar Chart for Total Revenue per Quarter
+ggplot(revenue_units_data, aes(x = interaction(year, quarter), y = total_revenue, fill = product)) +
+  geom_bar(stat = "identity", position = "stack") +
+  theme_minimal() +
+  labs(title = "Total Revenue per Product per Quarter",
+       x = "Year-Quarter",
+       y = "Total Revenue",
+       fill = "Product") +
+  scale_x_discrete(labels = function(x) gsub("\\.", " Q", x)) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+### Total Units Sold per Product per Quarter
+
+The line chart below illustrates the total units sold for each product per quarter, highlighting trends in product demand over time.
+
+```{r r2l, warning = F, echo = F}
+# Line Chart for Total Units Sold per Quarter
+ggplot(revenue_units_data, aes(x = interaction(year, quarter), y = total_units_sold, color = product, group = product)) +
+  geom_line() +
+  geom_point() +
+  theme_minimal() +
+  labs(title = "Total Units Sold per Product per Quarter",
+       x = "Year-Quarter",
+       y = "Total Units Sold",
+       color = "Product") +
+  scale_x_discrete(labels = function(x) gsub("\\.", " Q", x)) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+## AQIII: Total Revenue per Product per Country (2020-2023)
+
+```{r q3, warning = F, echo = F}
+revenue_country <- "
+SELECT 
+    product, 
+    country, 
+    SUM(total_amount) AS total_revenue
+FROM 
+    sales_facts
+GROUP BY 
+    product, 
+    country
+ORDER BY 
+    product, 
+    country
+"
+
+revenue_country_data <- dbGetQuery(mysql_conn, revenue_country)
+
+```
+
+The line graph below illustrates the revenue trends for various products across different countries. Each line represents a product, allowing you to compare performance across regions.
+
+```{r r3, warning = F, echo = F}
+ggplot(revenue_country_data, aes(x = country, y = total_revenue, group = product, color = product)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  theme_minimal() +
+  labs(title = "Total Revenue per Product per Country",
+       x = "Country",
+       y = "Total Revenue",
+       color = "Product") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_y_continuous(labels = scales::dollar) +
+  scale_color_brewer(palette = "Set1")
+
+```
+
+## AQIV: Average Sales per Sales Rep per Quarter (2020-2023)
+
+```{r q4, warning = F, echo = F}
+avg_sales <- "
+SELECT 
+    rID, 
+    sur, 
+    first, 
+    year, 
+    quarter, 
+    AVG(total_amount) AS avg_sales
+FROM 
+    rep_facts
+GROUP BY 
+    rID, 
+    sur, 
+    first, 
+    year, 
+    quarter
+ORDER BY 
+    year, 
+    quarter, 
+    avg_sales DESC
+"
+
+avg_sales_data <- dbGetQuery(mysql_conn, avg_sales)
+
+```
+
+The table below shows the average sales amount per sales rep for each quarter from 2020 to 2023. This information helps to easily identify key sales reps and their average sales performance across different quarters.
+
+```{r r4, warning = F, echo = F}
+avg_sales_data %>%
+  kable("html", caption = "Average Sales per Sales Rep per Quarter") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), 
+                full_width = F) %>%
+  column_spec(1, bold = TRUE, color = "white", background = "#3c8dbc") %>%
+  column_spec(6, bold = TRUE, color = "white", background = "#00a65a")
+
+```
+
+```{r disconnect, warning = F, include = F}
+# Disconnect from the database when done
+dbDisconnect(mysql_conn)
+
+```
+
+# References:
+# https://www.youtube.com/watch?v=H6no78vdNUM
+# https://northeastern.instructure.com/courses/180750/modules
+# https://www.geeksforgeeks.org/fact-constellation-in-data-warehouse-modelling/
+# https://chatgpt.com/
+# https://www.databricks.com/glossary/snowflake-schema#:~:text=A%20snowflake%20schema%20is%20a,data%20marts%2C%20and%20relational%20databases.
+# https://community.fabric.microsoft.com/t5/Desktop/Same-Dimensions-multiple-Fact-tables-different-measures-millions/td-p/3212805#:~:text=Given%20your%20requirements%2C%20there%20are%20a%20few%20potential%20approaches%20to%20consider.&text=Creating%20a%20star%20schema%20with,a%20bridge%20table%20where%20necessary.
+# https://stackoverflow.com/questions/32139596/cannot-allocate-a-new-connection-16-connections-already-opened-rmysql
+# https://www.lucidchart.com/pages/tour [ERD]
+# https://www.phpmyadmin.co/index.php [Console]
